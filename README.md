@@ -18,9 +18,10 @@ cd cypress-orangehrm
 ### 2. Install dependencies
 ```npm install```
 ### 3. Run Cypress
-a. Open Cypress GUI:
+- Open Cypress GUI:
 ```npx cypress open```
-b. Run all tests via CLI:
+
+- Run all tests via CLI:
 ```npx cypress run```
 
 ## Test Scenarios
@@ -31,8 +32,7 @@ b. Run all tests via CLI:
 | `addEmployee.cy.js` | Creates a new employee and verifies detail           |
 | `assignLeave.cy.js` | Assigns leave to an employee and confirms the result |
 
- All test cases are located in cypress/e2e/ folder
-
- Tested on OrangeHRM demo site: ```https://opensource-demo.orangehrmlive.com/```
+### All test cases are located in cypress/e2e/ folder
+Tested on OrangeHRM demo site: ```https://opensource-demo.orangehrmlive.com/```
 
 
